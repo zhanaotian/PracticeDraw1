@@ -13,6 +13,9 @@ import android.view.Menu;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author paihaozhan
+ */
 public class MainActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager pager;
@@ -30,6 +33,10 @@ public class MainActivity extends AppCompatActivity {
         pageModels.add(new PageModel(R.layout.sample_path, R.string.title_draw_path, R.layout.practice_path));
         pageModels.add(new PageModel(R.layout.sample_histogram, R.string.title_draw_histogram, R.layout.practice_histogram));
         pageModels.add(new PageModel(R.layout.sample_pie_chart, R.string.title_draw_pie_chart, R.layout.practice_pie_chart));
+        pageModels.add(new PageModel(R.layout.sample_dial_gauge, R.string.title_draw_dial_gauge, R.layout.practice_dial_gauge));
+        pageModels.add(new PageModel(R.layout.sample_circle_image, R.string.title_draw_circle_image, R.layout.practice_circle_image));
+        pageModels.add(new PageModel(R.layout.sample_pie_chart, R.string.title_draw_gesture_track, R.layout.practice_gesture_track));
+        pageModels.add(new PageModel(R.layout.sample_pie_chart, R.string.title_draw_water_ripple, R.layout.practice_water_ripple));
     }
 
     @Override
